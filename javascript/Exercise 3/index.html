@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    html, body {
+  height: 100%;
+  width: 100%;
+  
+}
+body
+ {
+  background-color : #585455;
+  font-family: 'Kanit', sans-serif;
+   font-size:20px;
+}
+
+#heading{
+  border: 2px solid #1d1325;
+  background-color: antiquewhite;
+  border-radius: 12px 0px;
+  color:#000000;
+  margin:auto;
+  height:48px;
+  width: 220px;
+  text-align: center;
+}
+#next{
+  font-size: 20px;
+  display:block;
+  color:  #d6c9cb;
+   border-radius: 5px;
+  border: 2px solid  #aeaeae;
+  background: rgb(33, 24, 26);
+  height: 40px;
+  width:130px;
+  margin:auto;
+   box-sizing:borderbox;
+  text-align: center;
+ 
+}
+
+#next:hover{
+  display:block;
+  color:  #ffffff;
+   border-radius: 5px;
+  border: 2px solid   #f23a59;
+  background: #f23a59;
+  margin:auto;
+  height: 37px;
+  width:128px;
+ 
+}
+#jokes{
+  color: white;
+  font-size: 31px;
+  margin: 20px auto;
+  padding:27px;
+  height: 35%;
+  width: 52%;
+  box-sizing:borderbox;
+  border:2px solid #170f17;
+  border-radius: 0px 30px;
+  background-color: #8d818e;;
+}
+
+</style>
+<body>
+  <h2 id = "heading"> JokeScript </h2>
+  <div id = "jokes">
+      harry sir: give me cheers <br> me : hip hip <strong>array!</strong>
+  <!--     i have used 3-4 original jokes  -->
+    </div>
+  
+    
+  <!--   used MDN example for this button -->
+    
+    <div id="button"><button onclick="getjokes()" id="next">Next</button></div>
+    <script src="script.js"></script>
+</body>
+</html>
